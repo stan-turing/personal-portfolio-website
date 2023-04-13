@@ -1,0 +1,461 @@
+body {
+    background-color: #0D1117;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: #1F6FEB;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    background-color: #1F6FEB;
+    padding: 3px 0px;
+    border-radius: 100px;
+    width: 25%;
+    margin: 100px auto;
+}
+
+.links {
+    margin: 0;
+}
+
+/* ######################### Navbar Section ####################### */
+
+header {
+    height: 80px;
+    background: #161b22d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px 0 35px;
+    border-radius: 0px 0px 25px 25px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer; 
+}
+
+.logo span {
+    color: #1F6FEB;
+}
+
+.hamburger {
+    display: flex;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.nav-bar ul li a {
+    color: #fff;
+    background-color: #2A3039;
+    font-size: 16px;
+    padding: 5px 11px;
+    border: 4px solid #2A3039;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 8px;
+    display: block;
+}
+
+.nav-bar ul li a:hover {
+    color: #fff;
+    border: 4px solid #1F6FEB;
+}
+
+.nav-bar ul li a.active {
+    color: #fff;
+    background-color: #1F6FEB;
+    border: 4px solid #1F6FEB;
+}
+
+/* ######################### top/home/intro Section ####################### */
+
+.top-container {
+    background-color: #161B22;
+    position: relative;
+    padding: 0px 0px 5px 0px;
+    border-radius: 0px 0px 25px 25px;
+    background-image: url("/img/dark-color-bg6.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.hi-me {
+    margin: 130px auto -10px auto;
+    z-index: 0;
+}
+
+.hi-title {
+    font-size: 2.5em;
+    margin: 0px auto 0px auto;
+    padding: 15px 30px;
+    background-color: #2A3039;
+    border: 8px solid #1F6FEB;
+    border-radius: 100px;
+    width: 350px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.short-bio {
+    font-size: 0.85rem;
+    color: #fff;
+    font-weight: normal;
+    margin: 15px auto 10px auto;
+    padding-bottom: 100px;
+    background-color: #2A3039;
+    border-radius: 100px;
+    padding: 10px 15px;
+    width: 300px;
+}
+
+.intro-links {
+    margin: 10px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.know-more {
+    background: #2A3039;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 16px;
+    padding: 11px 16px;
+    text-decoration: none;
+    margin: 10px;
+    border: 4px solid #2A3039;
+}
+
+.know-more:hover {
+    color: #fff;
+    border: 4px solid #1F6FEB;
+    transition: 0.2s ease-in-out;
+}
+
+.cv {
+    background: #1F6FEB;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.cv:hover {
+    background: #07287d;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+#scrolldown {
+    margin: -45px auto 65px auto;
+    cursor: pointer;
+    /* Hier kann man einen Autoscroller per JS programmieren wenn man auf die Maus klickt. Und den Text animieren */
+}
+
+.nav-line {
+    background-color: #1F6FEB;
+    padding: 3px 0px;
+    margin: auto;
+    border-radius: 100px;
+    width: 25%;
+}
+
+/* ######################### middle container ####################### */
+
+.middle-container  {
+    margin: 100px 0;
+}
+
+/* ######################### whoami Section ####################### */
+
+#whoami-title {
+    font-size: 2em;
+    margin: 0px auto 50px auto;
+    padding: 15px 30px;
+    background-color: #161B22;
+    border: 5px solid #1F6FEB;
+    border-radius: 100px;
+    width: 540px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.intro {
+    width: 680px;
+    margin: auto;
+    background-color: #161B22;
+    padding: 20px 25px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+/* ######################### projekt Section ####################### */
+
+#coding-projects {
+    margin: 0px auto -8px auto;
+    z-index: 0;
+    width: 200px;
+}
+
+#projekte-title {
+    font-size: 2em;
+    margin: 0px auto 50px auto;
+    padding: 15px 30px;
+    background-color: #161B22;
+    border: 5px solid #1F6FEB;
+    border-radius: 100px;
+    width: 520px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.projekt {
+    width: 500px;
+    margin: 70px auto;
+    background-color: #161B22;
+    padding: 30px 25px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    line-height: 2;
+}
+
+/* ######################### blog Section ####################### */
+
+#blog-title {
+    font-size: 2em;
+    margin: 0px auto 50px auto;
+    padding: 15px 30px;
+    background-color: #161B22;
+    border: 5px solid #1F6FEB;
+    border-radius: 100px;
+    width: 80px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-text {
+    padding: 2px 25px 5px 25px;
+    background-color: #161B22;
+    margin: 20px auto;
+    border-radius: 20px;
+    /* display: inline-flex; */
+    align-items: center;
+    width: 500px;
+    text-align: left;
+}
+
+.blog-hr {
+    border-style: none;
+    background-color: #1F6FEB;
+    padding: 3px 0px;
+    border-radius: 100px;
+    width: 25%;
+    margin: 30px auto;    
+}
+
+.blog-info {
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+/* ######################### Contact Section ####################### */
+
+#contact-me-img {
+    margin: 50px auto -8px auto;
+    z-index: 0;
+    width: 200px;
+}
+
+#contact-title {
+    font-size: 2em;
+    margin: 0px auto 50px auto;
+    padding: 15px 10px;
+    background-color: #161B22;
+    border: 5px solid #1F6FEB;
+    border-radius: 100px;
+    width: 220px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-message {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #1F6FEB;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #07287d;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+/* ######################### Copyright/Bottom Section ####################### */
+
+.bottom-container {
+    background-color: #161B22;
+    padding: 50px 0 20px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+a {
+    color: #48a0ff;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d0fdff;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* #################### Media Query aka Responsive Website #################### */
+
+@media only screen and (max-width: 900px) {
+    
+    /* ######### Navbar ######### */
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #1F6FEB;
+        margin: 6px 0px;
+        border-radius: 50px;
+    }
+    .nav-bar {
+        height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #161B22;
+        transition: 0.2s;
+        overflow: hidden;
+    }
+    .nav-bar.active {
+        height: 450px;
+        border-radius: 25px;
+        border: 1px solid #2A3039;
+        margin: 10px auto 0 auto;
+        width: 97%;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 15px;
+        padding: 10px 30px;
+    }
+    /* ######### home ######### */
+    .hi-me {
+        width: 150px;
+    }
+    .hi-title {
+        font-size: 1.5em;
+        width: 210px;
+    }
+    .short-bio {
+        font-size: .7rem;
+        width: 240px;
+    }
+    /* ######### whoami ######### */
+    #whoami-title {
+        font-size: 1em;
+        width: 200px;
+    }
+    .intro {
+        font-size: 1em;
+        width: 300px;
+    }
+    /* ######### projekte ######### */
+    #coding-projects {
+        width: 150px;
+    }
+    #projekte-title {
+        font-size: 1em;
+        width: 200px;
+    }
+    .projekt {
+        width: 260px;
+    }
+    /* ######### blog ######### */
+    #blog-title {
+        font-size: 1.5em;
+        width: 60px;
+    }
+    .blog-text {
+        width: 260px;
+    }
+    /* ######### contact ######### */
+    #contact-me-img {
+        width: 150px;
+    }
+    #contact-title {
+        font-size: 1.5em;
+        width: 180px;
+    }
+    h3 {
+        margin: auto;
+        width: 250px;
+        font-size: .9em;
+    }
+    .contact-message {
+        width: 250px;
+    }
+}
