@@ -35,7 +35,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 32px 0 35px;
+    padding: 0 30px 0 25px;
     border-radius: 0px 0px 25px 25px;
     position: fixed;
     z-index: 10;
@@ -44,8 +44,7 @@ header {
 }
 
 .logo {
-    font-size: 25px;
-    font-weight: 500;
+    width: 50px;
     cursor: pointer; 
 }
 
@@ -68,7 +67,7 @@ header {
     color: #fff;
     background-color: #2A3039;
     font-size: 16px;
-    padding: 5px 11px;
+    padding: 8px 17px;
     border: 4px solid #2A3039;
     border-radius: 50px;
     transition: 0.2s;
@@ -94,25 +93,25 @@ header {
     position: relative;
     padding: 0px 0px 5px 0px;
     border-radius: 0px 0px 25px 25px;
-    /* background-image: url("/img/dark-color-bg6.png"); */
+    background-image: url("/img/dark-color-bg6.png");
     background-size: 90%;
     background-position: center;
     background-repeat: repeat-y;
 }
 
 .hi-me {
-    margin: 130px auto -10px auto;
+    margin: 230px auto -10px auto;
     z-index: 0;
 }
 
 .hi-title {
     font-size: 2.5em;
+    width: 410px;
     margin: 0px auto 0px auto;
-    padding: 15px 30px;
+    padding: 15px 20px;
     background-color: #2A3039;
     border: 8px solid #1F6FEB;
     border-radius: 100px;
-    width: 350px;
     font-weight: 500;
     position: relative;
     z-index: 1;
@@ -126,12 +125,12 @@ header {
     padding-bottom: 100px;
     background-color: #2A3039;
     border-radius: 100px;
-    padding: 10px 15px;
-    width: 300px;
+    padding: 15px 15px;
+    width: 400px;
 }
 
 .intro-links {
-    margin: 10px auto 100px auto;
+    margin: 10px auto 200px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,12 +170,6 @@ header {
     transition: 0.2s ease-in-out;
 }
 
-#scrolldown {
-    margin: -45px auto 65px auto;
-    cursor: pointer;
-    /* Hier kann man einen Autoscroller per JS programmieren wenn man auf die Maus klickt. Und den Text animieren */
-}
-
 .nav-line {
     background-color: #1F6FEB;
     padding: 3px 0px;
@@ -191,7 +184,7 @@ header {
     margin: 100px 0;
 }
 
-/* ######################### whoami Section ####################### */
+/* ########################## whoami Section ####################### */
 
 #whoami-title {
     font-size: 2em;
@@ -200,7 +193,7 @@ header {
     background-color: #161B22;
     border: 5px solid #1F6FEB;
     border-radius: 100px;
-    width: 550px;
+    width: 580px;
     font-weight: 500;
     position: relative;
     z-index: 1;
@@ -230,7 +223,7 @@ header {
     background-color: #161B22;
     border: 5px solid #1F6FEB;
     border-radius: 100px;
-    width: 520px;
+    width: 600px;
     font-weight: 500;
     position: relative;
     z-index: 1;
@@ -256,7 +249,7 @@ header {
     background-color: #161B22;
     border: 5px solid #1F6FEB;
     border-radius: 100px;
-    width: 80px;
+    width: 120px;
     font-weight: 500;
     position: relative;
     z-index: 1;
@@ -408,11 +401,11 @@ a:hover {
     }
     .hi-title {
         font-size: 1.5em;
-        width: 210px;
+        width: 238px;
     }
     .short-bio {
         font-size: .7rem;
-        width: 240px;
+        width: 330px;
     }
     /* ######### whoami ######### */
     #whoami-title {
