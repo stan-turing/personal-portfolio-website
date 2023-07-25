@@ -1,2 +1,3 @@
 # Personal-Website-Test
-Test Repo for personal website
+Production repository of my personal website
+Link to website: https://patrickgerhartz.dev/
