@@ -39,7 +39,7 @@
         </header>
         <img class="hi-me" src="img/hi.png" alt="hello" width="200px">
         <h1 class="hi-title">Hi, ich bin Patrick :)</h1>
-        <h2 class="short-bio">Und ich liebe es spannende Probleme mit Code zu lösen!
+        <h2 class="short-bio">Ich liebe es neues zu lernen und spannende Probleme zu lösen.
         </h2>
         <div class="intro-links">
             <a class="know-more" href="#whoami">Mehr erfahren</a>
@@ -79,8 +79,8 @@
         <div>
             <img id="contact-me-img" src="img/call.png" alt="hello">
             <h2 id="contact-title">Contact_Me</h2>
-            <h3>Können Sie mir einen Praktikumsplatz anbieten?</h3>
-            <p class="contact-message">Aktuell suche ich einen Praktikumsplatz in Hamburg die Dauer sollte 3 Monate gehen.</p>
+            <h3 class="contact-message">Ich bin offen für <span>spannende Projekte</span> und <span>Jobangebote</span>!</h3>
+            <!-- <p class="contact-message">Aktuell suche ich einen Praktikumsplatz in Hamburg die Dauer sollte 3 Monate gehen.</p> -->
             <a class="btn" href="mailto:contact@patrickgerhartz.dev">Contact me</a>
             <a class="cv" href="cv_patrickgerhartz.pdf" download>Download CV</a>
         </div>
@@ -88,7 +88,7 @@
     <div class="bottom-container">
         <a class="footer-link" href="https://github.com/stan-turing">GitHub</a>
         <a class="footer-link" href="imprint.html">Impressum</a>
-        <p class="copyright">© 2023 Patrick Gerhartz | Alle Rechte vorbehalten.</p>
+        <p class="copyright">© 2023 - <span id="year"></span> Patrick Gerhartz | Alle Rechte vorbehalten.</p>
     </div>
     <script>
         hamburger = document.querySelector(".hamburger");
@@ -96,6 +96,7 @@
             navBar = document.querySelector(".nav-bar");
             navBar.classList.toggle("active");
         }
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
 </body>
 </html>
