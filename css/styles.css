@@ -238,7 +238,7 @@ header {
     background-color: #161B22;
     padding: 30px 25px;
     border-radius: 20px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     line-height: 2;
 }
@@ -279,7 +279,7 @@ header {
 }
 
 .blog-info {
-    text-align: center;
+    text-align: left;
     margin-bottom: 17px;
 }
 
@@ -403,6 +403,11 @@ a:hover {
     .nav-bar ul li a {
         margin-bottom: 15px;
         padding: 10px 30px;
+    }
+    .nav-bar ul li a:hover {
+        margin-bottom: 15px;
+        padding: 10px 30px;
+        background-color: #1F6FEB;
     }
     /* ######### home ######### */
     .hi-me {
