@@ -90,13 +90,6 @@
         <a class="footer-link" href="imprint.html">Impressum</a>
         <p class="copyright">© 2023 - <span id="year"></span> Patrick Gerhartz | Alle Rechte vorbehalten.</p>
     </div>
-    <script>
-        hamburger = document.querySelector(".hamburger");
-        hamburger.onclick = function() {
-            navBar = document.querySelector(".nav-bar");
-            navBar.classList.toggle("active");
-        }
-        document.getElementById("year").innerHTML = new Date().getFullYear();
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
